@@ -1,0 +1,22 @@
+{
+  "wavelength": 1.55e-06,
+  "length": 10000,
+  "n_screens": 40,
+  "n": 512,
+  "waist": 0.03,
+  "margin": 6.0,
+  "extra_spread_angle": 1e-05,
+  "subharmonics": 4,
+  "seed": 20261115,
+  "spectrum": {
+    "cn2": 1e-16,
+    "model": "modified_atmosphere",
+    "inner_scale": 0.01,
+    "outer_scale": 30.0,
+    "alpha": 3.6666666666666665,
+    "mu_x": 1.0,
+    "mu_y": 1.0
+  },
+  "whiten": false,
+  "absorber_start": null
+}

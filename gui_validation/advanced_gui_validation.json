@@ -1,0 +1,67 @@
+{
+  "validation": {
+    "independent_screens": 30,
+    "phase_maps": 3,
+    "directional_spectra": [
+      "x / major axis",
+      "y / minor axis"
+    ],
+    "warnings": [
+      "x / major axis: too little resolved inertial range to fit a slope.",
+      "x / major axis: outer roll-off is outside the sampled band."
+    ],
+    "screenshot_phase_maps": "wavefront_advanced_phase_maps_30.png",
+    "screenshot_power_spectra": "wavefront_advanced_power_spectra_30.png",
+    "invalid_alpha_scale_order_and_axis_order_rejected": true
+  },
+  "advanced": {
+    "mode": "advanced",
+    "phase_screen_spectrum": {
+      "cn2": 1e-16,
+      "model": "bounded_power_law",
+      "inner_scale": 0.008,
+      "outer_scale": 0.35,
+      "alpha": 3.4,
+      "mu_x": 1.65,
+      "mu_y": 0.8
+    },
+    "realizations": 30,
+    "positive_wavelength_samples": 9,
+    "unique_realization_seeds": 30,
+    "unique_phase_cubes": 30,
+    "unique_individual_screens": 90,
+    "base_seed": 1324095646778885,
+    "warnings": [],
+    "workers": 4,
+    "elapsed_s": 1.6861093000043184,
+    "screenshot": "wavefront_advanced_results_30.png",
+    "data_zip_members": 219,
+    "image_zip_members": 63
+  },
+  "cancelled_validation_preserves_advanced_mode": true,
+  "normal": {
+    "mode": "normal",
+    "phase_screen_spectrum": {
+      "cn2": 1e-16,
+      "model": "modified_atmosphere",
+      "inner_scale": 0.01,
+      "outer_scale": 30.0,
+      "alpha": 3.6666666666666665,
+      "mu_x": 1.0,
+      "mu_y": 1.0
+    },
+    "realizations": 30,
+    "positive_wavelength_samples": 9,
+    "unique_realization_seeds": 30,
+    "unique_phase_cubes": 30,
+    "unique_individual_screens": 90,
+    "base_seed": 909814739632688,
+    "warnings": [],
+    "workers": 4,
+    "elapsed_s": 1.7630839999765158,
+    "screenshot": "wavefront_normal_results_30.png",
+    "data_zip_members": 219,
+    "image_zip_members": 63
+  },
+  "status": "PASS"
+}

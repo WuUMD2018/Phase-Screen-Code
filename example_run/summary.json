@@ -1,0 +1,24 @@
+{
+  "first_plane_width_m": 0.36,
+  "last_plane_width_m": 2.337602682067991,
+  "input_power": 1.0,
+  "output_power": 1.0000000000000306,
+  "final_radius_x_m": 0.17684406064860933,
+  "final_radius_y_m": 0.17552759167526738,
+  "final_centroid_x_m": -0.008662211121878195,
+  "final_centroid_y_m": -0.012977184149636396,
+  "max_edge_power_fraction": 1.188730876883932e-05,
+  "warnings": [],
+  "vacuum_warnings": [],
+  "description": "One illustrative turbulence realization",
+  "observation": {
+    "distance_beyond_receiver_m": 1000000.0,
+    "output_pitch_m": 0.6630724767259303,
+    "fraunhofer_vs_fresnel_relative_complex_field_l2": 0.04805870735133714
+  },
+  "plots": [
+    "phase_screen.png",
+    "phase_spectrum.png",
+    "beam_snapshots.png"
+  ]
+}

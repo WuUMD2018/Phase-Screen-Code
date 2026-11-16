@@ -1,0 +1,100 @@
+{
+  "scaled_gaussian_complex_field_relative_l2": 2.875584354449103e-09,
+  "scaled_power_relative_error": 0.0,
+  "roundtrip_relative_l2": 6.099071850767455e-16,
+  "tilted_beam_centroid_error_m": 9.606898609959558e-15,
+  "direct_fresnel_interior_relative_l2": 5.882427980020475e-11,
+  "vacuum_channel_complex_field_relative_l2": 4.806736922043504e-15,
+  "vacuum_channel_warnings": [],
+  "screen_channel": {
+    "midpoint_tilt_centroid_max_error_m": 6.938893903907228e-18,
+    "screen_callback_mutation_isolated": true,
+    "last_screen_unchanged_when_previous_slabs_are_vacuum": true
+  },
+  "residual_chirp_aliasing": {
+    "plateau_residual_cycles_per_pixel": 44.92441372008929,
+    "plateau_aliasing_warning_emitted": true,
+    "plateau_intensity_relative_l2": 1.3416317844001353,
+    "expanding_residual_cycles_per_pixel": 0.07577114242811392,
+    "expanding_complex_field_relative_l2": 6.14691819136714e-14
+  },
+  "beam_snapshots": [
+    {
+      "path_fraction": 0.2,
+      "z_m": 2000.0,
+      "dx_m": 0.004380156634832287,
+      "analytic_complex_field_relative_l2": 9.281806960009244e-16
+    },
+    {
+      "path_fraction": 0.5,
+      "z_m": 5000.0,
+      "dx_m": 0.00954316323774686,
+      "analytic_complex_field_relative_l2": 2.2929898663473944e-15
+    },
+    {
+      "path_fraction": 1.0,
+      "z_m": 10000.0,
+      "dx_m": 0.018649621072333686,
+      "analytic_complex_field_relative_l2": 4.115844699751225e-15
+    }
+  ],
+  "natural_grid_fresnel_complex_field_relative_l2": 1.0731459477973584e-15,
+  "fraunhofer_complex_field_relative_error_at_2500_m": 0.34732330928822186,
+  "fraunhofer_error_estimate_absolute_difference": 5.551115123125783e-17,
+  "fraunhofer_radius_relative_error": 5.551115123125783e-15,
+  "fraunhofer_power_relative_error": 1.199040866595169e-14,
+  "far_field_limit_intensity_relative_l2": 1.134699558420542e-06,
+  "theory_quadrature_relative_change": 6.482066576829482e-07,
+  "phase_structure_monte_carlo": {
+    "independent_screens": 400,
+    "separation_m": [
+      0.002,
+      0.004,
+      0.008,
+      0.016,
+      0.024,
+      0.032
+    ],
+    "theory_rad2": [
+      0.001220723423955234,
+      0.004830201250103229,
+      0.018531092153964934,
+      0.0641652833415174,
+      0.12016400754303129,
+      0.17710231736816093
+    ],
+    "mean_rad2": [
+      0.0012331921177184118,
+      0.004878196151841387,
+      0.018707771219386223,
+      0.06475264400410345,
+      0.12129015827253474,
+      0.17892981509521858
+    ],
+    "standard_error_rad2": [
+      1.4482364377703313e-05,
+      5.792079885481423e-05,
+      0.00023034356095998857,
+      0.0008943288144608039,
+      0.0019275815453584078,
+      0.003268658609106459
+    ],
+    "relative_error": [
+      0.010214184080107547,
+      0.00993641864034811,
+      0.009534196039464815,
+      0.009153870005682796,
+      0.009371780723110179,
+      0.010318880939647057
+    ],
+    "relative_rms_error": 0.009764440415671007
+  },
+  "thickness_scaling_relative_l2": 3.222960214351187e-16,
+  "kolmogorov_constant_relative_difference": 0.001422830235684902,
+  "white_noise_variance_rad2": [
+    0.0001384877928511773,
+    0.0001384877928511773
+  ],
+  "white_noise_quadrature_relative_change": 1.459335575482168e-05,
+  "status": "PASS"
+}

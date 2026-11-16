@@ -1,0 +1,18 @@
+{
+  "zero_bandwidth_bitwise_equal": true,
+  "vacuum_mixture_relative_l2": 1.982140104353463e-14,
+  "turbulent_receiver_relative_l2": 2.8409789565351013e-16,
+  "post_screen_relative_l2": 2.67712899260564e-16,
+  "shared_optical_path_verified": true,
+  "wavelength_dependent_fried_verified": true,
+  "serial_parallel_outputs_bitwise_equal": true,
+  "broadband_zip_exports_verified": true,
+  "status": "PASS",
+  "zero_bandwidth_matches_previous_release_exports": true,
+  "default_broadband": {
+    "elapsed_s": 14.764434800017625,
+    "workers": 4,
+    "warnings": [],
+    "samples": 9
+  }
+}

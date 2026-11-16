@@ -1,0 +1,78 @@
+{
+  "format_version": 2,
+  "parameters": {
+    "distance_m": 10000.0,
+    "beam_diameter_cm": 6.0,
+    "screens": 12,
+    "cn2": 1e-16,
+    "resolution": 512,
+    "iterations": 6,
+    "seed": 20261115,
+    "wavelength_nm": 1550.0,
+    "fwhm_nm": 10.0
+  },
+  "wavelength_m": 1.55e-06,
+  "equivalent_plane_wave_fried_cm": 31.244816279775698,
+  "wavelength_spectrum": {
+    "density": "Gaussian optical power per unit wavelength with positive-wavelength support",
+    "center_nm": 1550.0,
+    "fwhm_nm": 10.0,
+    "wavelength_samples_nm": [
+      1530.836132795275,
+      1536.3877963429925,
+      1541.180438679124,
+      1545.6546332873786,
+      1550.0,
+      1554.3453667126214,
+      1558.819561320876,
+      1563.6122036570075,
+      1569.163867204725
+    ],
+    "power_weights": [
+      2.2345844007746576e-05,
+      0.0027891413212317653,
+      0.04991640676521791,
+      0.2440975028949394,
+      0.4063492063492064,
+      0.2440975028949394,
+      0.04991640676521791,
+      0.0027891413212317653,
+      2.2345844007746576e-05
+    ],
+    "gaussian_fraction_at_nonpositive_wavelength": 0.0,
+    "phase_reference_nm": 1550.0,
+    "turbulence": "One common non-dispersive optical path per slab and realization"
+  },
+  "beam_size_definition": "Initial 1/e^2 intensity diameter",
+  "base_seed": 20261115,
+  "realization_seeds": [
+    "36638593322817009923436724293710947619",
+    "78285492491414206207209331516204716125",
+    "339917846657765543157081722624767128338",
+    "70472072774674632235668716617537015552",
+    "315513973387787711456087643278730971090",
+    "16969379456012377451831628138635795034"
+  ],
+  "workers": 4,
+  "elapsed_s": 14.764434800017625,
+  "warnings": [],
+  "data": {
+    "indexing": "Arrays use [screen, y, x] or [y, x]. Realization folders are one-based.",
+    "realization_NNNN/phase_screens_rad.npy": "float32 [screens, n, n], unwrapped screen phase at the center wavelength in rad",
+    "realization_NNNN/after_screen_amplitude.npy": "float32 [screens, n, n], sqrt(spectral intensity) after modulation",
+    "realization_NNNN/after_screen_phase_rad.npy": "float32 [screens, n, n], center-wavelength phase after modulation in rad",
+    "realization_NNNN/final_amplitude.npy": "float32 [n, n], sqrt(spectral intensity) at the receiver",
+    "realization_NNNN/final_phase_rad.npy": "float32 [n, n], center-wavelength receiver phase in rad",
+    "coordinates/screen_x_m.npy": "float64 [screens, n, n], x in m, shared by all realizations",
+    "coordinates/screen_y_m.npy": "float64 [screens, n, n], y in m, shared by all realizations",
+    "coordinates/screen_z_m.npy": "float64 [screens], screen depth in m",
+    "coordinates/final_x_m.npy": "float64 [n, n], receiver x in m",
+    "coordinates/final_y_m.npy": "float64 [n, n], receiver y in m",
+    "average/final_amplitude.npy": "float32 [n, n], sqrt(ensemble mean of spectral intensity)",
+    "average/final_phase_rad.npy": "float32 [n, n], circular mean center phase in rad; NaN for zero resultant",
+    "realization_NNNN/after_screen_center_amplitude.npy": "float32 [screens, n, n], center-wavelength amplitude after modulation",
+    "realization_NNNN/final_center_amplitude.npy": "float32 [n, n], center-wavelength receiver amplitude",
+    "average/final_center_amplitude.npy": "float32 [n, n], sqrt(ensemble mean of center-wavelength intensity)"
+  },
+  "images": "Amplitude and phase PNGs for every realization and the average. Read the colorbars for scales."
+}
